@@ -22,7 +22,7 @@
     </div>
   </div> 
   <div id="slide4" class="carousel-item relative w-full">
-    <img src="product-4.jpg" class="w-full h-96" />
+    <img src="/product-4.jpg" class="w-full h-96" />
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide3" class="btn btn-circle">❮</a> 
       <a href="#slide1" class="btn btn-circle">❯</a>
