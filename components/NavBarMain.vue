@@ -5,8 +5,8 @@
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
-        <li><a>Home</a></li>
-        <li><a>Store</a></li>
+        <li><NuxtLink to="/">Home</NuxtLink></li>
+        <li><NuxtLink to="/store">Store</NuxtLink></li>
         <li tabindex="0" class="flow-root">
           <a>
            Select Language
