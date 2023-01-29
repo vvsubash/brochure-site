@@ -1,5 +1,6 @@
 <template>
     <div>
+        <StoreSearchBar />
         <h1>Store Page</h1>
     </div>
 </template>
