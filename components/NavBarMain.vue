@@ -4,7 +4,7 @@
       <NuxtLink class="btn btn-ghost normal-case text-xl" to="/">Brochure Site</NuxtLink>
     </div>
     <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal px-1 ">
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/store">Store</NuxtLink></li>
         <li tabindex="0" class="flow-root">
@@ -34,4 +34,8 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style>
+a.router-link-active {
+  @apply underline font-bold;
+}
+</style>
